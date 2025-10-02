@@ -1,10 +1,11 @@
-
 def sudy_nebo_lichy(cislo):
- cislo = int(input("vložte číslo"))
-
     if cislo % 2 == 0:
-        print("Číslo je sudé")
+        print("Číslo",cislo, "je sudé")
     else:
-        print("číslo je liché")
+        print(f"Číslo {cislo} je liché")
 
 
+if __name__ == "__main__":
+    sudy_nebo_lichy(5)
+    sudy_nebo_lichy(1000000)
+    sudy_nebo_lichy(int(input("Zadejte číslo: ")))
