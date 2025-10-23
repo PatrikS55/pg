@@ -22,5 +22,5 @@ if __name__ == "__main__":
 
     print(faktorial2(0))
     print(faktorial2(1))
-    print(faktorial2(5))
+    print(faktorial2(6))
     print(faktorial2(100))
