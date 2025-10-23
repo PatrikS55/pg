@@ -2,7 +2,7 @@
 def pesec(start, cil, obsazene):
     r, s = start
     cr, cs = cil
-
+    obsazene = {(2, 2), (8, 2), (3, 3), (5, 4), (8, 3), (8, 8), (6, 3), (1, 4)}
     if cs != s:
         return False
 
@@ -17,6 +17,20 @@ def pesec(start, cil, obsazene):
             return True
 
     return False
+
+def strelec(start, cil, obsazene):
+    r, s = start
+    cr, cs = cil
+    obsazene = {(2, 2), (8, 2), (3, 3), (5, 4), (8, 3), (8, 8), (6, 3), (1, 4)}
+    
+    if cil in obsazene:
+        return False
+    
+
+    if 
+
+
+
 
 
 def je_tah_mozny(figurka, cilova_pozice, obsazene_pozice):
