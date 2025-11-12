@@ -1,0 +1,2 @@
+"Alice", "24", "student"
+"Bob", "34", "pracující"
