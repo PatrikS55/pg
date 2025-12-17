@@ -48,8 +48,7 @@ class Manazer(Zamestnanec):
 if __name__ == "__main__":
     p1 = Programator("Alice", 40000)
     m1 = Manazer("Bob", 50000, 5)
-    print(p1)
-
+    
 
     zamestnanci = [p1, m1]
 
