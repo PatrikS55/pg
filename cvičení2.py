@@ -25,11 +25,11 @@ def naformatuj_text(zak):
     vek = zak["vek"]
     znamky = ["znamky"]
     prumer_znamek = round(prumer(znamky))
-    text = f"student: {zak}(
+    #text = f"student: {zak}(
 
 if __name__ == "__main__":
     #prace_se_seznamem()
-    #print(vrat_treti_prvek([1,2,3]))
+    print(vrat_treti_prvek([1,2,3]))
     #print(prumer(cisla))
     
 
@@ -46,5 +46,5 @@ if __name__ == "__main__":
      
     student["vek"] += 1
     student["obor"] = "AEFP"
-    print(naformatuj_text(student))
+    #print(naformatuj_text(student))
 

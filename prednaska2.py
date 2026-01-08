@@ -18,6 +18,6 @@ if __name__ == "__main__":
 
                 print(výsledek)
 
-             except Exception:
+            except Exception:
 
                 print("v nasem programu nastala chyba") 
