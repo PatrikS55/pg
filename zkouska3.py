@@ -25,7 +25,12 @@ class Shape():
         return 0.0
 
 
-# ZDE NAPIŠTE VÁŠ KÓD
+class Rectangle(Shape):
+
+    def __init__(self, width, height):
+        super().__init__("Rectangle")
+        self.width = width
+        self.height = height
 
 
 from unittest.mock import patch, MagicMock, mock_open

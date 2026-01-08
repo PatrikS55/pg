@@ -25,8 +25,8 @@ def convert_to_czk(amount, currency):
     data = zadani.text.splitlines()
 
 
-    for line in data:
-        cast = line.split("|")
+    for sloupec in data:
+        cast = sloupec.split("|")
 
         if len(cast) != 5:
             continue
